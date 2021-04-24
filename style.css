@@ -1,0 +1,58 @@
+body {
+  
+    height: 100vh;
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-self: center;
+
+    background-image:url("image/c1.jfif") ;
+    position:relative;
+  opacity:0.70;
+  background-position:center;
+  background-size:cover;
+  background-position: 0ch;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+}
+#main {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.container {
+    border: 5px solid rgb(248, 246, 246);
+    border-radius: 10px;
+    width: 500px;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+#title {
+    font-size: 50px;
+    margin-bottom: 0;
+    color: rgb(247, 248, 246);
+
+}
+
+#counter {
+    font-size: 80px;
+    color: aliceblue;
+}
+
+button {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    background-color: lightslategray;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    margin: 10px;
+    cursor: pointer;
+}
